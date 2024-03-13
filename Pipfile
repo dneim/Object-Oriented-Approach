@@ -10,6 +10,10 @@ jupyter = "*"
 notebook = "*"
 boto3 = "*"
 pyarrow = "*"
+pyyaml = "*"
+pylint = "*"
+moto = {extras = ["mock_s3_deprecated"], version = "*"}
+coverage = "*"
 
 [dev-packages]
 
